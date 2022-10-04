@@ -1,100 +1,146 @@
-# LABECOMMERCE
+<div align="center">
+  
+# Labecommerce
+  
+> 🩺 E-commerce de camisetas com estampas divertidas relacionadas ao espaço
+  
+  <img src="https://user-images.githubusercontent.com/70871620/193903831-c761f169-1b86-4058-b1f2-a8f8929195c5.gif" height="200px" title="Por trás dessa camisa suja, há um Clean Coder!"/>  
 
-E-commerce de camisetas com estampas divertidas relacionadas ao espaço
+<br>
+  
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+ 
+[Clique aqui](https://general-volcano.surge.sh/) para acessar o deploy do projeto
+  
+</div>
 
-## Imagens do projeto
+---
 
-![image](https://user-images.githubusercontent.com/70871620/180585785-e641d42c-a5d7-4149-bda5-05f5e5be2a4a.png)
-![image](https://user-images.githubusercontent.com/70871620/180585803-f82bf6b5-f6bc-4288-b50f-108ca3ae96d7.png)
+<details>
+<summary><h2>🎓 Autor</h2></summary>
 
-## Link do projeto
+<div align="left">
+  
+[Matheus Queiroz](https://github.com/matheusqueirozds) |  
+:-------------------------:|
+ <a href="https://github.com/matheusqueirozds"><img src="https://avatars.githubusercontent.com/u/70871620?v=4" width="100px;" alt="Foto do Matheus Queiroz no GitHub" title="O gato que fez esse repositório"/></a> |
+  
+</div>
+</details>
 
-https://general-volcano.surge.sh/
+---
 
-## Referência
+<details>
+<summary><h2>🎨 Documentação de cores</h2></summary>
+<div>
 
--   [Notion do Projeto](https://labenu.notion.site/Projeto-de-Fixa-o-LabECommerce-6a6fb1fa84c140669afb38a0b0388a1d)
--   [Documentação React](https://pt-br.reactjs.org/)
+| Cor | Hexadecimal |
+| :---: | :---: |
+| cor-1 | #00acb7 | 
+| cor-2 | #e9eae9 | 
+| cor-3 | #3b3a38 | 
+| cor-4 | #ffffff | 
+  
+</div>  
+</details>
 
-## Funcionalidades
+---
 
-### Home 🏠
+<details>
+<summary><h2>✅ Funcionalidades</h2></summary>
 
--   O projeto possui 6 cards de produtos contendo cada:
-    -   Imagem do produto
-    -   Nome do produto
-    -   Valor do produto
-    -   Botão que permita adicioná-los ao carrinho
-    -   Mostrar todos os produtos
--   Ordenação
-    -   É possível ordenar todos os produtos por ordem crescente
-    -   É possível ordenar todos os produtos por ordem decrescente
-    -   É possível ordenar os produtos juntamente com o Filtro
+Seguem as principais features acrescentadas nesse projeto:
 
-### Filtro 💦
+-  [x] O usuário consegue visualizar uma lista de produtos
+-  [x] O usuário consegue visualizar os dados do produto (nome, preço e imagem)
+-  [x] O usuário consegue adicionar um produto no carrinho
+-  [x] O usuário consegue visualizar os produtos adicionados
+-  [x] O usuário consegue visualizar a quantidade correta de cada produto
+-  [x] O usuário consegue remover itens do carrinho
+-  [x] O usuário consegue ver corretamente o valor total de sua compra
+-  [x] O usuário consegue filtrar os itens por preço mínimo
+-  [x] O usuário consegue filtrar os itens por preço máximo
+-  [x] O usuário consegue realizar uma busca por nome
+-  [x] O usuário consegue ordenar os itens em ordem crescente ou decrescente
+-  [x] O usuário consegue adicionar  filtros, busca e ordenação simultaneamente
+-  [x] O usuário consegue retornar à visualização sem filtros
+  
+</details>  
 
--   O projeto possui um filtro com as seguintes funcionalidades
+ ---
+ 
+<details> 
+<summary><h2>🚫 Roadmap</h2></summary>
 
-    -   É possível filtrar um produto por valor mínimo
-    -   É possível filtrar um produto por valor máximo
-    -   É possível filtrar um produto pelo nome do produto
-    -   É possível filtrar um produto com a cor do mesmo. Ex.: Azul, amarelo, etc.
+Seguem as implementações a serem adicionadas nesse projeto:
+-  [x] Quando a página for atualizada, os itens deverão continuar no carrinho
 
 
+</details>
+  
+ --- 
+ 
+<details>
+<summary><h2>🎯 Aprendizados</h2></summary>
 
-## Aprendizados
+- Componentes Funcionais e Props
+- Estados e Imutabilidade
+- Styled-Components
+- Renderização de listas
+- Busca, Filtros e ordenação
 
--   Componentes Funcionais e Props
--   Estados e Imutabilidade
--   styled-components
--   Renderização de listas
--   Busca, Filtros e ordenação
+</details>    
+  
+ ---
 
-## Autores
+<details>
+<summary><h2>🔄 Rodando o projeto localmente</h2></summary>  
+  
+Clone o projeto via HTTPS
 
-<table>
- <table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/DanielSiilva">
-        <img src="https://avatars.githubusercontent.com/u/94769388?v=4" width="100px;" alt="Foto do Daniel da Silva no GitHub"/><br>
-        <sub>
-          <b>@DanielSiilva</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
+```bash
+  git clone https://github.com/matheusqueirozds/labe-commerce.git
+```
 
-  <tr>
-    <td align="center">
-      <a href="https://github.com/DouglasWilliams298">
-        <img src="https://avatars.githubusercontent.com/u/97309506?v=4" width="100px;" alt="Foto do Douglas Williams no GitHub"/><br>
-        <sub>
-          <b>@DouglasWilliams298</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
+Entre no diretório do projeto
 
-  <tr>
-    <td align="center">
-      <a href="https://github.com/matheusqueirozds">
-        <img src="https://avatars.githubusercontent.com/u/70871620?v=4" width="100px;" alt="Foto do Matheus Queiroz no GitHub"/><br>
-        <sub>
-          <b>@matheusqueirozds</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
-</table>
+```bash
+  cd labe-commerce
+```
 
-## Stacks utilizadas
+Instale todas as dependências abaixo:
 
-### Frontend
+```bash
+  npm i styled-components
+```
 
- <ul>
-   <li>✅ HTML5 e CSS3</li>
-   <li>✅ JavaScript </li>
-   <li>✅ React</li>
- </ul>
+Inicie o servidor
+
+```bash
+  npm run start
+```
+
+</details>  
+
+ --- 
+ 
+<details>
+<summary><h2>🤹🏾‍♂️ Stacks utilizadas</h2></summary>
+  
+- React JS
+  
+</details>   
+  
+ --- 
+ 
+<details>
+<summary><h2>🔳 Screenshots</h2></summary>
+
+<div align="center">
+
+Sobre 
+--- 
+<img src="https://user-images.githubusercontent.com/70871620/193907705-81d6b126-116d-4b7d-b28f-c602afc2f581.png" max-width="1220px" title="Sobre"/> 
+
+</div>
+</details>
